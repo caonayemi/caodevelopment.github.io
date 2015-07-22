@@ -1,0 +1,1 @@
+This is my second attempt at a portfolio website. Here we go!
