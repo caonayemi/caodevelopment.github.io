@@ -1,1 +1,0 @@
-This is my second attempt at a portfolio website. I am beginning with the Sinatra skeleton and moving from there.
