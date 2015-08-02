@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   get 'home' => 'main#index'
 
-  get 'about-tine' => 'main#about-tine'
+  get 'about_tine' => 'main#about_tine'
 
   get 'portfolio' => 'portfolio#index'
 
