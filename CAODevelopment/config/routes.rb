@@ -1,4 +1,20 @@
 Rails.application.routes.draw do
+  root 'welcome#index'
+
+  get 'home' => 'main#index'
+
+  get 'about-tine' => 'main#about-tine'
+
+  get 'portfolio' => 'portfolio#index'
+
+  get 'portfolio/:project_name' => 'portfolio#show'
+
+  get 'blog' => 'blog#index'
+
+  get 'blog/:post_name' => 'blog#show'
+
+  get 'contact' => 'main#contact'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
