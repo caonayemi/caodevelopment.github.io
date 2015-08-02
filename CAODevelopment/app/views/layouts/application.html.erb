@@ -7,8 +7,25 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <header>
+    <h1>Christine ('Tine) Onayemi</h1>
+    <p>
+      Web Developer in progress via <a target="_blank" href="http://devbootcamp.com/">Dev Bootcamp</a>
+    </p>
+    <img id="profile_picture" src="http://www.gravatar.com/avatar/12f8a65c2c77e3b9a53b264d251bb63a.png" alt="profile_picture"/>
+    <nav>
+      <a href="home">Home</a>
+      <a href="about_tine">About 'Tine</a>
+      <a href="portfolio">Portfolio</a>
+      <a href="blog">Blog</a>
+      <a href="contact">Contact</a>
+    </nav>
+  </header>
 
-<%= yield %>
+  <%= yield %>
 
+  <footer>
+    &copy; 2015 Christine A. Onayemi, M.Ed.
+  </footer>
 </body>
 </html>
