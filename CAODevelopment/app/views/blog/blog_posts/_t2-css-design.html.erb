@@ -8,7 +8,7 @@
   <p>
     From the inside out, we go from the object itself out to the padding, then the border, and finally the margin. As state previously, an <b>object</b> has its own dimensions (width x height). The <b>padding</b> is the space between the object and its border. The <b>border</b>, which may be made visible by the web designer, surrounds the object. The <b>margin</b> is the space between the border and other objects on the site. Please see the diagram below for further clarification.
   </p>
-  <img src="../imgs/margin-border-padding-diagram.png" alt="margin-border-padding-example"/>
+  <%= image_tag "margin-border-padding-diagram.png" %>
   <h3>More on Margins</h3>
   <p>
     As discussed above, a margin is the space between an object's border and other objects on the site. We define the length of this space using CSS by typing: <pre><code>margin: [length];</code></pre> Here, we can type our length using several units of measurements. For now, let's stick with pixels (px). One pixel is a dot on your screen. This is what it would look like if we set objects to have 40-pixel margins (<code>margin: 40px</code>):
