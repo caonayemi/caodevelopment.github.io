@@ -11,7 +11,7 @@ culture = Category.create!(name: "Cultural")
 
 c1 = Blog.create!(title: "DBC First Impressions", subtitle: "Kitchen vs. Table", filename: "_c1-chefs-kitchen.html.erb", authored_on: 2015-04-12, category: culture)
 c3 = Blog.create!(title: "How Should I DBC?", subtitle: "Musings of an Abstract Sequential Thinker", filename: "_c3-thinking-style.html.erb", authored_on: 2015-04-26, category: culture)
-c4 = Blog.create!(title: "The Intersectionality Riddle", subtitle: "What's Black and White and Feminist All Over?", filename: "_c4-tech-issues.html.erb", authored_on: 2015-, category: culture)
+c4 = Blog.create!(title: "The Intersectionality Riddle", subtitle: "What's Black and White and Feminist All Over?", filename: "_c4-tech-issues.html.erb", authored_on: 2015-05-03, category: culture)
 c5 = Blog.create!(title: "Learning about Learning through Feedback on Feedback", subtitle: "DBC Is So Meta", filename: "_c5-feedback.html.erb", authored_on: 2015-05-10, category: culture)
 c6 = Blog.create!(title: "Confirming the Stereotypes", subtitle: "Diary of a Loud, Angry Black Woman", filename: "_c6-stereotype-threat.html.erb", authored_on: 2015-05-18, category: culture)
 c7 = Blog.create!(title: "It's All about Me", subtitle: "Combating Stereotype Threat through Self-Improvement", filename: "_c7-values.html.erb", authored_on: 2015-05-25, category: culture)

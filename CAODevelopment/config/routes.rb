@@ -11,7 +11,7 @@ Rails.application.routes.draw do
 
   get 'blog' => 'blog#index'
 
-  get 'blog/:post_name' => 'blog#show'
+  get 'blog/:filename' => 'blog#show'
 
   get 'contact' => 'main#contact'
 

@@ -1,0 +1,18 @@
+<h1>Blog Index</h1>
+<h3>Technical Blog Posts</h3>
+<ul>
+  <% @blogs.each do |blog| %>
+    <% if blog.category.name == "Technical" %>
+      <li><a href="blog/blog_posts/<%= blog.filename %>"><% blog.title %> <%= blog.subtitle %></a> - <%= blog.authored_on %></li>
+    <% end %>
+  <% end %>
+</ul>
+<h3>Cultural Blog Posts</h3>
+<ul>
+  <% @blogs.each do |blog| %>
+    <% if blog.category.name == "Cultural" %>
+      <li><a href="blog/blog_posts/<%= blog.filename %>"><% blog.title %><%if blog.subtitle %> <%= blog.subtitle %><% end %></a> - <%= blog.authored_on %></li>
+    <% end %>
+  <% end %>
+</ul>
+
